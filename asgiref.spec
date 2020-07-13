@@ -4,7 +4,7 @@
 #
 Name     : asgiref
 Version  : 3.2.10
-Release  : 6
+Release  : 7
 URL      : https://files.pythonhosted.org/packages/6d/6e/6e0ff19e7054491be7390fec2b711f838b31282fd3afe28057314d72f11b/asgiref-3.2.10.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6d/6e/6e0ff19e7054491be7390fec2b711f838b31282fd3afe28057314d72f11b/asgiref-3.2.10.tar.gz
 Summary  : ASGI specs, helper code, and adapters
