@@ -1,5 +1,5 @@
 PKG_NAME := asgiref
-URL = https://files.pythonhosted.org/packages/3e/34/fb6c2b2b858d27cdc6703e26e304d56e2300c33719b9407eae54a6b80423/asgiref-3.3.0.tar.gz
+URL = https://files.pythonhosted.org/packages/e9/d1/096b5b0b411a1a53c294a508fdc51542de77bc193df5c8230ff9445e4ff3/asgiref-3.3.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
