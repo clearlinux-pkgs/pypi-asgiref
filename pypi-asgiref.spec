@@ -4,7 +4,7 @@
 #
 Name     : pypi-asgiref
 Version  : 3.5.2
-Release  : 41
+Release  : 42
 URL      : https://files.pythonhosted.org/packages/1f/35/e7d59b92ceffb1dc62c65156278de378670b46ab2364a3ea7216fe194ba3/asgiref-3.5.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/1f/35/e7d59b92ceffb1dc62c65156278de378670b46ab2364a3ea7216fe194ba3/asgiref-3.5.2.tar.gz
 Summary  : ASGI specs, helper code, and adapters
