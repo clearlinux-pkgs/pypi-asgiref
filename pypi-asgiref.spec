@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-asgiref
-Version  : 3.7.1
-Release  : 49
-URL      : https://files.pythonhosted.org/packages/29/ef/bd9cd6ac55b7e7595c6fe097ea6c318b6a487f43762f15abe98c58b101e9/asgiref-3.7.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/29/ef/bd9cd6ac55b7e7595c6fe097ea6c318b6a487f43762f15abe98c58b101e9/asgiref-3.7.1.tar.gz
+Version  : 3.7.2
+Release  : 50
+URL      : https://files.pythonhosted.org/packages/12/19/64e38c1c2cbf0da9635b7082bbdf0e89052e93329279f59759c24a10cc96/asgiref-3.7.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/12/19/64e38c1c2cbf0da9635b7082bbdf0e89052e93329279f59759c24a10cc96/asgiref-3.7.2.tar.gz
 Summary  : ASGI specs, helper code, and adapters
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -53,10 +53,10 @@ python3 components for the pypi-asgiref package.
 
 
 %prep
-%setup -q -n asgiref-3.7.1
-cd %{_builddir}/asgiref-3.7.1
+%setup -q -n asgiref-3.7.2
+cd %{_builddir}/asgiref-3.7.2
 pushd ..
-cp -a asgiref-3.7.1 buildavx2
+cp -a asgiref-3.7.2 buildavx2
 popd
 
 %build
@@ -64,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684939738
+export SOURCE_DATE_EPOCH=1685241454
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
